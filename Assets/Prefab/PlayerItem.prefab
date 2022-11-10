@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01dcb1c22998a554faa2f7962dcdb405, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  avatarImage: {fileID: 0}
+  avatarImage: {fileID: 7654744395179242361}
   playerName: {fileID: 7654744395662870938}
   avatarSprites:
   - {fileID: 21300000, guid: 99e4cbfceff57134d90bc683d721bc3e, type: 3}
