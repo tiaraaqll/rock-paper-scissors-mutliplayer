@@ -277,7 +277,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 125713549}
         m_TargetAssemblyTypeName: GamePlayNetworkManager, Assembly-CSharp
-        m_MethodName: BackToLobby
+        m_MethodName: Replay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -594,8 +594,8 @@ MonoBehaviour:
   P2: {fileID: 2041761459}
   restoreValue: 5
   damageValue: 50
-  State: 0
-  NextState: 0
+  State: 1
+  NextState: 1
   gameOverPanel: {fileID: 1265600983}
   winnerText: {fileID: 1790133621}
   pingText: {fileID: 761743100}

@@ -98,6 +98,10 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         StartGameButton.interactable = PhotonNetwork.CurrentRoom.PlayerCount >= 2;
     }
 
+   public void ClickLeaveRoom () {
+        PhotonNetwork.LeaveRoom();
+   }
+
     private void UpdatePlayerList()
     {
         // destroy dulu semua player item yang sudah ada
